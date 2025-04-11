@@ -1,1 +1,1 @@
-export const ServerAPI = `http://localhost:5000/api/v1`;
+export const ServerAPI = `https://velki.onrender.com/api/v1`;
