@@ -11,7 +11,7 @@ const {
 } = require("../service/user.service");
 
 const { generateToken } = require("../utils/token");
-const { checkWithIdService } = require("../utils/checkWithId");
+const {checkWithIdService} = require("../utils/checkWithID")
 
 exports.singUp = async (req, res, next) => {
   try {
