@@ -4,14 +4,17 @@ const colors = require("colors");
 const app = require("./app");
 const multer = require("multer");
 const storage = multer.memoryStorage();
-const upload = multer({ storage: storage });
+const upload = multer({storage: storage});
 // database connection
-mongoose.connect(`${process.env.DATABASE}`).then(() => {
-  console.log(`Database connection is successful`.red.italic.bold);
+mongoose.connect(`${process.env.DATABASE}`, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    console.log(`Database connection is successful`.red.italic.bold);
 });
 
 // server
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.log(`App is running on port ${port}`.yellow.italic.bold);
+    console.log(`App is running on port ${port}`.yellow.italic.bold);
 });
