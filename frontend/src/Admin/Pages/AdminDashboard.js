@@ -8,7 +8,7 @@ const AdminDashboard = () => {
     const token = localStorage.getItem('access');
 
     useEffect(() => {
-        fetch(`${ServerAPI}/api/v1/user`, {
+        fetch(`${ServerAPI}/user`, {
             method: "GET",
             headers: {
                 "content-type": "application/json",
