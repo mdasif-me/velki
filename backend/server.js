@@ -6,7 +6,7 @@ const multer = require("multer");
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 // database connection
-mongoose.connect(process.env.DATABASE).then(() => {
+mongoose.connect(`${process.env.DATABASE}`).then(() => {
   console.log(`Database connection is successful`.red.italic.bold);
 });
 
