@@ -33,7 +33,3 @@ npm start
 ## Usage
 
 Open your browser at `http://localhost:3000` to access the admin panel.
-
-## Contributing
-
-Feel free to fork, make changes, and create a pull request.
