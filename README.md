@@ -1,6 +1,3 @@
-Got it! Here's a **simple, clean, and readable** `README.md` for your project:
-
-````markdown
 # Velki Admin Panel
 
 Velki Admin Panel is an admin dashboard for managing users, tickets, and portal activities efficiently.
@@ -45,9 +42,4 @@ Feel free to fork, make changes, and create a pull request.
 
 MIT License
 
-```
-
-If you want, I can also make an **even shorter version under 100 lines** with **badges for tech stack and status**, which looks very professional on GitHub.  
-
-Do you want me to do that?
 ```
